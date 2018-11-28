@@ -7,24 +7,27 @@ body {
     font-size: 22px;
     letter-spacing: 0.2px;
     display: block;
-    margin: 0;
     max-width: 100%;
     min-width: 10%;
-
+    /*background-color: rgb(77, 18, 52);*/
+    
      margin: 10%;
-    padding: 20px;
-    width: 300px;
     margin-left: auto;
     margin-right: auto; 
 
 }
 
+a{
+    color: white;
+}
+
 h1{
     color: white;
     background-color: rgb(226, 14, 85);
-    margin: 10%;
+    margin: 0%;
     padding: 20px;
     width: 300px;
+
     margin-left: auto;
     margin-right: auto; 
 }
@@ -33,7 +36,10 @@ div.links img{
 
 border-style: solid ;
 border-width: 12px;
-border-color: rgb(226, 14, 85);
+/*border-color: rgb(252, 28, 103);*/
+border-color: rgb(255, 255, 255);
+background-color: rgb(226, 14, 85);
+
 
 margin: 10%;
 padding: 70px;
@@ -43,6 +49,7 @@ width: 450px;
 
 }
 
+
 div.illusion{
     width: 1vw; 
 	height: 10vw;
@@ -50,9 +57,16 @@ div.illusion{
     bottom: 31vh;
     right: 21vw;
     
-
-     
     
+    
+}
+
+span.captioni {
+    width: 1vw; 
+	height: 10vw;
+	position: absolute;
+    bottom: -55vh;
+    right: 12vw;
 }
 
 div.difference{
@@ -63,12 +77,28 @@ width: 0vw;
     right: 51vw;
 }
 
+span.captiond {
+    width: 1vw; 
+	height: 10vw;
+	position: absolute;
+    bottom: -43.5vh;
+    right: 10vw;
+}
+
 div.rotem{
     width: 0vw; 
         height: 7vw;
         position: absolute;
         bottom: -27vh;
         right: 21vw;
+    }
+
+    span.captionc {
+        width: 1vw; 
+        height: 10vw;
+        position: absolute;
+        bottom: -87vh;
+        right: 10vw;
     }
 
     div.dog{
@@ -78,6 +108,13 @@ div.rotem{
             bottom: -27vh;
             right: 51vw;
         }
+
+        span.captiong {
+            width: 1vw; 
+            height: 10vw;
+            position: absolute;
+            bottom: -35.5vh;
+            right: 10.5vw;
 
 
 
